@@ -1,0 +1,17 @@
+---
+# 服务配置
+server:
+  # 端 口
+  port: 8020
+  # Servlet
+  servlet:
+    # Session
+    session:
+      # 超 时 时 间
+      timeout: 120m
+---
+# 生产环境：prod
+spring:
+  profiles:
+    active: prod
+---
